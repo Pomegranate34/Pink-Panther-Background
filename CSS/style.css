@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(13, 64, 68, 0.4)), url(../images/giphy.gif);
+    color: white;
+    width: auto;
+    height: 50em;
+    padding: 4em;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 0.2em 0;
+
+}
+
+p {
+    font-size: 1.2rem;
+    padding: 0.8em 0;
+}
+
+button {
+    padding: 0.5em 0.8em;
+    background-color: #c78b93;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c76672;
+}
